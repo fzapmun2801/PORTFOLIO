@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Fernando Javier Zapata Muñoz</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f4f4f4;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 20px auto;
+        background: white;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .profile-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid white;
+        object-fit: cover;
+      }
+
+      .header-info h1 {
+        font-size: 2.2em;
+        margin-bottom: 10px;
+      }
+
+      .header-info p {
+        margin: 5px 0;
+        font-size: 0.95em;
+      }
+
+      .content {
+        padding: 40px;
+      }
+
+      .section {
+        margin-bottom: 35px;
+      }
+
+      .section h2 {
+        color: #667eea;
+        font-size: 1.5em;
+        margin-bottom: 15px;
+        padding-bottom: 8px;
+        border-bottom: 3px solid #667eea;
+      }
+
+      .section p {
+        text-align: justify;
+        margin-bottom: 10px;
+      }
+
+      .experience-item {
+        margin-bottom: 20px;
+      }
+
+      .experience-item h3 {
+        color: #333;
+        font-size: 1.2em;
+        margin-bottom: 5px;
+      }
+
+      .experience-item .company {
+        color: #666;
+        font-style: italic;
+        margin-bottom: 5px;
+      }
+
+      .experience-item .date {
+        color: #888;
+        font-size: 0.9em;
+        margin-bottom: 10px;
+      }
+
+      .education-item {
+        margin-bottom: 20px;
+      }
+
+      .education-item h3 {
+        color: #333;
+        font-size: 1.1em;
+        margin-bottom: 5px;
+      }
+
+      .education-item .institution {
+        color: #666;
+        margin-bottom: 3px;
+      }
+
+      .education-item .location {
+        color: #888;
+        font-size: 0.9em;
+      }
+
+      .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+      }
+
+      .skill-item {
+        background: #f8f9fa;
+        padding: 10px 15px;
+        border-radius: 5px;
+        border-left: 4px solid #667eea;
+      }
+
+      .language-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+
+      .language-table th,
+      .language-table td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .language-table th {
+        background-color: #667eea;
+        color: white;
+      }
+
+      .language-table tr:hover {
+        background-color: #f5f5f5;
+      }
+
+      .level {
+        display: inline-block;
+        background: #667eea;
+        color: white;
+        padding: 3px 10px;
+        border-radius: 3px;
+        font-size: 0.85em;
+      }
+
+      @media (max-width: 768px) {
+        .header {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .header-info h1 {
+          font-size: 1.8em;
+        }
+
+        .content {
+          padding: 20px;
+        }
+
+        .skills-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          src="foto_cv.jpg"
+          alt="Fernando Javier Zapata Muñoz"
+          class="profile-img"
+        />
+        <div class="header-info">
+          <h1>Fernando Javier Zapata Muñoz</h1>
+          <p>📧 fernandozapata2807@gmail.com</p>
+          <p>📧 fzapmun2801@ieszaidinvergeles.org</p>
+          <p>📱 (+34) 622437042</p>
+          <p>📍 C. Honduras Nº4, 18110 Las Gabias, España</p>
+          <p>📅 Fecha de nacimiento: 28/01/2007</p>
+          <p>🌍 Nacionalidad: Española</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <section class="section">
+          <h2>Sobre Mí</h2>
+          <p>
+            Soy un estudiante apasionado por el sector de la informática y
+            electrónica. Mi especial interés es el ámbito de la programación,
+            desarrollo de aplicaciones web y montaje de hardware, no obstante,
+            tengo adquiridas habilidades técnicas en hardware de montaje y de
+            equipos, software informáticos y redes.
+          </p>
+          <p>
+            Soy una persona que trabaja bien en equipo, trabajador y ambicioso
+            en la vida, comprometido con el aprendizaje continuo y apto para
+            llevar a cabo cualquier trabajo relacionado que se proponga.
+          </p>
+          <p>
+            Creo que con mi combinación de conocimientos teóricos y experiencia
+            podré afrontar los desafíos que pueda presentar su empresa.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>Experiencia Laboral</h2>
+          <div class="experience-item">
+            <h3>Desarrollador y Gestor de páginas Web</h3>
+            <div class="company">Gestoría Multimedia – Granada, España</div>
+            <div class="date">
+              24/03/2025 – 15/06/2025 (89 días - Prácticas laborales)
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Educación y Formación</h2>
+          <div class="education-item">
+            <h3>Técnico en Sistemas Microinformáticos y Redes</h3>
+            <div class="institution">IES Zaidín-Vergeles</div>
+            <div class="location">
+              Zaidín, Granada, España |
+              <a href="https://www.ieszaidinvergeles.org/" target="_blank"
+                >www.ieszaidinvergeles.org</a
+              >
+            </div>
+          </div>
+          <div class="education-item">
+            <h3>Educación Secundaria</h3>
+            <div class="institution">IES Montevives</div>
+            <div class="location">
+              Las Gabias, Granada, España |
+              <a href="http://www.iesmontevives.es/" target="_blank"
+                >www.iesmontevives.es</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Competencias de Idiomas</h2>
+          <p><strong>Lengua materna:</strong> Español</p>
+          <table class="language-table">
+            <thead>
+              <tr>
+                <th>Idioma</th>
+                <th>Comprensión Auditiva</th>
+                <th>Comprensión Lectora</th>
+                <th>Expresión Escrita</th>
+                <th>Producción Oral</th>
+                <th>Interacción Oral</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Inglés</strong></td>
+                <td><span class="level">B2</span></td>
+                <td><span class="level">B2</span></td>
+                <td><span class="level">B1</span></td>
+                <td><span class="level">B1</span></td>
+                <td><span class="level">B1</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <p style="margin-top: 10px; font-size: 0.9em; color: #666">
+            <em
+              >Niveles: A1 y A2 (usuario básico), B1 y B2 (usuario
+              independiente), C1 y C2 (usuario competente)</em
+            >
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>Capacidades y Habilidades</h2>
+          <div class="skills-grid">
+            <div class="skill-item">Programación</div>
+            <div class="skill-item">Desarrollo de Páginas Web</div>
+            <div class="skill-item">WordPress</div>
+            <div class="skill-item">Mantenimiento de equipos</div>
+            <div class="skill-item">Trabajo en equipo</div>
+            <div class="skill-item">Microsoft Word / Excel</div>
+            <div class="skill-item">Resolución de Problemas</div>
+            <div class="skill-item">Organización y Puntualidad</div>
+            <div class="skill-item">Capacidad de autoaprendizaje</div>
+            <div class="skill-item">Redes sociales</div>
+            <div class="skill-item">Responsabilidad</div>
+            <div class="skill-item">Sociable</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Aficiones e Intereses</h2>
+          <p>La programación y Montaje de Equipos</p>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
